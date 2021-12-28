@@ -5,7 +5,7 @@ import numpy as np
 
 # load model
 model = WCT2()
-model.load_weight('./checkpoints/wtc2.h5')
+model.load_weight('./photorealistic_style_transfer/checkpoints/wtc2.h5')
 
 # Helper Functions
 # Scale Image according to given width or height
@@ -52,11 +52,11 @@ def pst(input_img, style_img):
   gen_img = model.transfer(content, style, 1.0)
 
   # write generated img to a png file
-  cv2.imwrite('./examples/output/output.png', gen_img[0])
+  cv2.imwrite('./output/output.png', gen_img[0])
 
   # transform array to PIL img
   # final_img = PIL.Image.fromarray(gen_img[0], 'RGB')
-  final_img = './examples/output/output.png'
+  final_img = './output/output.png'
 
   return final_img
 
