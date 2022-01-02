@@ -1,4 +1,5 @@
 import gradio as gr
+import photorealistic_style_transfer.model as model
 from model import WCT2
 import cv2
 import numpy as np
