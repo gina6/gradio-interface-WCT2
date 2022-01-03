@@ -21,8 +21,11 @@ Click [here](https://colab.research.google.com/drive/1dS1w0WO7Rcvul7Zw-ztB5BwOmE
 ```
 git clone https://github.com/gina6/gradio-interface-WCT2
 ```
-
-#### 2.2 Run the app.py script
+#### 2.2 Install Gradio
+```
+pip install gradio
+```
+#### 2.3 Run the app.py script
 ```
 python app.py
 ```
