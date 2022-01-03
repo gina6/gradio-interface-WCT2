@@ -2,9 +2,9 @@
 
 Transfer the overall style of an image to your original image.
 
-The origianl model was implemented with PyTorch by Jaejun-yoo based on this paper https://arxiv.org/abs/1903.09760
+The original model was implemented with PyTorch by [Jaejun-yoo](https://github.com/jaejun-yoo) based on this paper https://arxiv.org/abs/1903.09760
 
-The model used was implemented by ptran1203 and vunquitk11 using Tensorflow and Keras. It is used here as a submodule. View the original repository here.
+The model used was implemented by [ptran1203](https://github.com/ptran1203) and [vunquitk11](https://github.com/vunquitk11) using Tensorflow and Keras. It is used here as a submodule. View the original repository [here](https://github.com/ptran1203/photorealistic_style_transfer).
 
 I added a Gradio Interface where you can upload your images and screenshot the output.
 
