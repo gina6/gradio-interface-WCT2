@@ -74,4 +74,4 @@ iface = gr.Interface(
   description = iface_description
   )
 
-iface.launch(share=True)
+iface.launch()
